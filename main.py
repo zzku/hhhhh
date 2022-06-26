@@ -65,7 +65,7 @@ def masg(call):
 		
 		F = types.InlineKeyboardButton(text ="(9UUUUU)", callback_data="F7")
 		
-	    M = types.InlineKeyboardButton('DEV  ', url='https://t.me/J_M_G')
+	        M = types.InlineKeyboardButton('DEV  ', url='https://t.me/J_M_G')
 		
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
 
